@@ -55,6 +55,7 @@ public:
 				}
 			}else if(!isalnum(currLine[i]) && currLine[i]!=' ' &&
 						currLine[i]!='\n' && currLine[i]!='\t' && currLine[i]!='.'){
+				if(openCount>0) continue;
 				if(currLine[i]==','){
 					if(openCount==0){
 						cout<<"There is \',\' outside function call\n";

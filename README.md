@@ -31,3 +31,15 @@ Obs:
 isConnected(a, b) #runs a DFS to check if a and b are connected
 
 dist(a, b) #runs a Dijikstra and prints the minimum distance between a and b, -1 if not connected
+
+numEdges()
+
+numVerts()
+
+print()
+
+adjList()
+
+adjList(v) #adj List only for vertice v
+
+degree(v)
