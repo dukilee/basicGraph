@@ -1,6 +1,9 @@
+setBidirect()
 a b 1.7
 a d 2.3
-d c 9.2
+b c 9.2
 c d 2.1
 isConnected(a, c)
+isConnected(d, a)
 distance(a, c)
+mst()
