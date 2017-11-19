@@ -1,3 +1,7 @@
+--Running
+$ g++ main.cpp -o main
+$ ./main
+
 --Documentation
 
 -Edge definition
